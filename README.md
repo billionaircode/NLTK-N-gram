@@ -5,7 +5,7 @@ determine what language it is in.
 You will then perform a TF-IDF analysis
 # Goals
 
-In this assignment you will:
+In this project you will:
 * Write functions to perform a basic n-gram analysis of texts
 * Visualize the n-gram distribution of different texts
 * Use this information to analyze a new text.
