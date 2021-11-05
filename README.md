@@ -42,7 +42,7 @@ NLTK is the Natural Language Toolkit, a set of common text-processing tools for 
 > python3 -mpip install --user nltk
 ```
 
-> Note: if you are using Jupyter Notebook on Scholar to do your assignments, you are going to want to run this command from a terminal window on Scholar (by SSHing to scholar, or opening a terminal window through Thinlinc). Some students have been having trouble trying to install modules using Jupyter Notebook's built-in terminal.
+> Note: if you are using Jupyter Notebook on Scholar to do your work, you are going to want to run this command from a terminal window on Scholar (by SSHing to scholar, or opening a terminal window through Thinlinc). Some students have been having trouble trying to install modules using Jupyter Notebook's built-in terminal.
 
 
 We will use NLTK to clean and *stem* the documents before processing the documents. To clean the documents, we will:
