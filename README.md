@@ -63,7 +63,7 @@ Use the link on Piazza to set up project 9.
 The repository should contain several files:
 
 1. This README
-2. Two starter files with some function stubs called `hw9_1.py` and `hw9_2.py`
+2. Two starter files with some function stubs called `9_1.py`.
 3. A helper file called `helper.py` (this contains code to remove punctuation from a string)
 4. 7 translations of the UN Declaration on Human Rights in different languages, in the subdirectory `ngrams/`: `english.txt`, `french.txt`, `german.txt`, `italian.txt`, `portuguese.txt`, `spanish.txt`, `swahili.txt`.
 5. A "mystery" file, `mystery.txt` where you are supposed to detect the language it is in, in the subdirectory `ngrams/`
@@ -73,7 +73,7 @@ The repository should contain several files:
 
 ### Step 1:
 
-First fill in the functions `getFormattedText`, `getNgrams`, `getDict`, and `topNCommon` as described in `hw9_1.py` to read an input file into a list of its lines, then process those lines to construct a _dictionary_ of n-grams, and finally output a list of tuples containing the N largest (n-gram, count) pairs in decreasing order. For example:
+First fill in the functions `getFormattedText`, `getNgrams`, `getDict`, and `topNCommon` as described in `9_1.py` to read an input file into a list of its lines, then process those lines to construct a _dictionary_ of n-grams, and finally output a list of tuples containing the N largest (n-gram, count) pairs in decreasing order. For example:
 ```
 > topNCommon('ngrams/english.txt',10)
 > [('the', 149), (' th', 142), (' an', 129), ('he ', 121), ('nd ', 113), ('and', 111), ('ion', 102), (' of', 93), ('of ', 89), ('tio', 88)]
@@ -85,7 +85,7 @@ The dictionaries you will create will map an n-gram (the dictionary key) to the 
 
 When writing `topNCommon`, you may find the following StackOverflow post helpful: https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value. You may also find the dictionary method popitem() to be useful.
 
-There will be a line of comment symbols in `hw9_1.py`, and once you have filled in the functions up to this point, you may run hw9_1.py to test that what you have so far works. (It should output the above output for `topNCommon` when you run it, followed by potentially and empty list and empty string that will change as you fill out the functions in the later steps).
+There will be a line of comment symbols in `9_1.py`, and once you have filled in the functions up to this point, you may run 9_1.py to test that what you have so far works. (It should output the above output for `topNCommon` when you run it, followed by potentially and empty list and empty string that will change as you fill out the functions in the later steps).
 
 
 
@@ -114,6 +114,6 @@ Some notes:
 
 - The list method index() may be useful.
 
-Running `hw9_1.py` now should output something for steps 1,2 and 3.
+Running `9_1.py` now should output something for steps 1,2 and 3.
 
-Submit the filled-in version of `hw9_1.py`
+Submit the filled-in version of `9_1.py`
